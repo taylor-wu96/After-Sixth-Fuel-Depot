@@ -88,12 +88,15 @@
         height: 100%;
         border: none;
         overflow: hidden;
-        pointer-events: none;
+        /* pointer-events: none */
       }
     </style>
   </head>
   <body>
-    <iframe src="https://sixfuelzine2.web.nycu.edu.tw" allowfullscreen></iframe>
+    <iframe
+      src="https://sixfuelzine2.web.nycu.edu.tw"
+      sandbox="allow-scripts allow-forms allow-same-origin"
+      allowfullscreen></iframe>
 
     <script>
       // Register service worker for PWA functionality
